@@ -20,15 +20,12 @@ public class Caja {
      * El constructor no devuelve nada, pero para saber que se ejecuta mando
      * imprimir en consola un mensaje.
      */
-    public Caja() {
-        System.out.println("Ejecuto el constructor");
-    }
 
     /**
      * Creo un método que puede recibir los parámetros.
      * Esos parámetros serán asignados a las variables declaradas de esta clase.
      */
-    public int Caja(int ancho, int alto, int profundo) {
+    public Caja(int ancho, int alto, int profundo) {
         this.ancho = ancho;
         this.alto = alto;
         this.profundo = profundo;
@@ -37,7 +34,7 @@ public class Caja {
          * del volumen.
          * El volumen se calcula en otro método.
          */
-        return this.calcularVolumen();
+        return;
     }
 
     /**
